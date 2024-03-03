@@ -25,7 +25,7 @@ CHAMADO [ istorico.txt ]
 
 """)
 
-host = "localhost"
+host = str(input("SEU IP DA REDE LOCAL: "))
 porta = 8080
 
 servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
